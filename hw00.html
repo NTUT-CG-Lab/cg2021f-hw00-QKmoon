@@ -308,7 +308,7 @@
 			requestAnimationFrame( animate );
 			group.rotation.y += ( targetRotation - group.rotation.y ) * 0.05;
 
-			groupSVG.rotation.y += ( targetRotation - group.rotation.y ) * 0.05;
+			group.rotation.y += ( targetRotation - group.rotation.y ) * 0.05;
 
 			camera.lookAt( cameraTarget );
 			renderer.render( scene, camera );
